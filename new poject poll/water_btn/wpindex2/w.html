@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Pollution Index Calculator</title>
+    <link rel="stylesheet" href="hi.css">
+    <style>
+        
+    </style>
+</head>
+<body >
+  <center><div> <h1>Water Pollution Index Calculator</h1></div></center> <br><br><br><br>
+  
+    <form id="pollution-form">
+        <label for="a">BOD:</label>
+        <input type="number" id="a" required><br>
+        <label for="b">TSS Index:</label>
+        <input type="number" id="b" required><br>
+        <label for="c">DO Index:</label>
+        <input type="number" id="c" required><br>
+        <label for="d">Conductivity Index:</label>
+        <input type="number" id="d" required><br>
+        <label for="x">Water Temperature:</label>
+        <input type="number" id="x" required><br>
+        <input type="button" value="Calculate" onclick="calculateIndex()">
+    </form>
+    <p id="result"></p>
+    <script src="js.js"></script>
+   
+</body>
+</html>
